@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+		<div id="header">
+		<head>
+			<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+			<title>LOVE METER</title>
+			<link href="love meter.css" rel="stylesheet" media="screen" type="text/css"/>
+			<script language="JavaScript" type="text/javascript" src="love.js"></script>
+		</head>
+		</div>
+		<body>
+			<div id="headerpic"><img src="img/lovemeter.png" width="1366px"></a>
+			</div>
+			<div id="h1"><h1>Check your love meter</h1>
+			</div>
+			<div id="form">
+			<fieldset>
+				<legend id="head">Print Your Information</legend>
+				<form id="fom" >
+					<table>
+						<tr>
+						<td><label for="name1">Name 1:</label></td>
+						<td><input type="text" name="name1" id="name1" onchange="checkenter(this);"/></td>
+						</tr>
+						<tr>
+						<td><label for="name2">Name 2:</label></td>
+						<td><input type="text" name="name2" id="name2" onchange="checkenter(this);"/></td>
+						</tr>
+						<tr>
+						<td colspan="2"><input type="button" value="Do you love each other?" onClick="insRow();" /></td>
+						</tr>
+					</table>
+				</form>
+			</fieldset>
+			</div>
+			<div>
+			<table id="myTable" border=1 width="500" height="100">
+					<thead>
+						<tr>
+						<th widh="20%">Name 1</th>
+						<th width="30%">Name 2</th>
+						<th width="40%">love</th>
+						<th width="10%">Date</th>
+						</tr>
+					</thead>
+					</table>
+				</div>
+			<div id="footer">
+			Wang Duan Tian Ya-Zhiwei &#169 2013-4-13	
+
+			</div>
+
+		</body>
+</html>
